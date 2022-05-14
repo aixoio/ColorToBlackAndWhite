@@ -1,0 +1,11 @@
+#canvas {
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+body {
+  font-family: Verdana, monospace, sans-serif, serif;
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

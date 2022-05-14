@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Color To Black and White</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Color To Black and White</h1>
+      <form id="form">
+        <input type="file" id="fileInput" required accept="image/*">
+        <br>
+        <button type="submit">Convert</button>
+      </form>
+      <canvas id="canvas" hidden></canvas>
+      <h3 id="message" hidden>Click To Save!</h3>
+    </main>
+    <footer>
+      <script src="./converter.js" charset="utf-8"></script>
+    </footer>
+  </body>
+</html>
